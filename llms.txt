@@ -1,0 +1,8 @@
+# @sharadox/menu-web-library
+
+> Phone menu behavior as one React hook; the design stays with each site.
+
+- use-menu useMenu({ wide: media query where the bar fits everything, id? = "menu" }) → { open, close, toggle (spread on the menu button: aria-expanded, aria-controls, data-menu-toggle, onClick), closer (spread on bar and menu: onClickCapture closes on any a/button except the toggle) }
+- While open: html overflow hidden; Escape closes; matchMedia(wide) change to matching closes
+- Build the menu beside the bar (not inside a blurred bar), scrolling when it doesn't fit (overflow-y auto, data-lenis-prevent)
+- 0.1.0: first release

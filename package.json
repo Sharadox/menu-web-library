@@ -24,7 +24,8 @@
     "distribution",
     "LICENCA.md",
     "LICENSE.md",
-    "NOTICE.md"
+    "NOTICE.md",
+    "llms.txt"
   ],
   "sideEffects": [
     "**/*.css"
