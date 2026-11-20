@@ -1,6 +1,6 @@
 {
   "name": "@sharadox/menu-web-library",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Phone menus that behave: useMenu opens and closes it, locks the page behind, closes on any link or button tapped in the bar or menu, on Escape and when the screen widens.",
   "private": false,
   "license": "SEE LICENSE IN LICENCA.md",
@@ -65,7 +65,7 @@
     "*.{json,md,yml,yaml,scss}": "prettier --write"
   },
   "dependencies": {
-    "@sharadox/web-library": "^0.5.0"
+    "@sharadox/web-library": "^0.8.0"
   },
   "devDependencies": {
     "@sharadox/es-lint-configuration-web-library": "^0.1.1",
