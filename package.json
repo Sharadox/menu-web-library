@@ -1,6 +1,6 @@
 {
   "name": "@sharadox/menu-web-library",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Phone menus that behave: useMenu opens and closes it, locks the page behind, closes on any link or button tapped in the bar or menu, on Escape and when the screen widens.",
   "private": false,
   "license": "SEE LICENSE IN LICENCA.md",
@@ -28,9 +28,7 @@
     "llms.txt",
     "CHANGELOG.md"
   ],
-  "sideEffects": [
-    "**/*.css"
-  ],
+  "sideEffects": false,
   "engines": {
     "node": ">=26"
   },
